@@ -25,6 +25,10 @@ header{
     z-index: 1000;
 }
 
+#navlogo{
+    width: 7rem;
+}
+
 header .logo{
     font-weight: bolder;
     font-size: 25px;
