@@ -9,10 +9,13 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     min-height: 100vh;
+    background-image: url(../images/forside-background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -22,7 +25,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    
+}
+
+main{
+    
+}
+
+footer{
+   
 }
 
 #navlogo{
@@ -129,4 +140,39 @@ header label{
         display: block;
     }
 
+}
+
+#forside-paragraf{
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 6rem 3rem;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);   
+    max-width: 35rem;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.article {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.article p {
+    margin-top: 10px;
+    font-size: 16px;
 }
