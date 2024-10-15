@@ -6,12 +6,10 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     text-decoration: none;
     min-height: 100vh;
-    background-image: url(../images/forside-background.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: aqua;
 }
 
 header{
@@ -142,28 +140,33 @@ header label{
 
 }
 
-#forside-paragraf{
-    font-size: 3rem;
+h2{
+    font-size: 2rem;
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
     padding: 6rem 3rem;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);   
-    max-width: 35rem;
+
 }
 
 .articles {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .article {
-    background-color: rgba(255, 255, 255, 0.2); /* Transparent background */
+    background-color: rgb(243, 243, 243);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
+    width: 40%;
     text-align: center;
+}
+
+#billede-en-forside, #billede-to-forside, #billede-tre-forside{
+    width: 30%;
 }
 
 .article img {
@@ -175,4 +178,13 @@ header label{
 .article p {
     margin-top: 10px;
     font-size: 16px;
+}
+
+.article a{
+    text-decoration: none;
+    color: black;
+}
+
+button p{
+    margin: 0;
 }
