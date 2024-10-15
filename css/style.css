@@ -9,7 +9,7 @@ body{
     text-transform: none;
     text-decoration: none;
     min-height: 100vh;
-    background-color: lightgray;
+    background-color: #F0EDE5;
 }
 
 header{
@@ -179,10 +179,6 @@ h2{
     color: black;
 }
 
-#billede-icon{
-    width: 40%;
-}
-
 footer {
     background-color: #333;
     color: white;
@@ -283,4 +279,9 @@ footer {
         width: 100%;
         text-align: center;
     }
+}
+
+
+#billede-icon-en, #billede-icon-to, #billede-icon-tre{
+    width: 50%;
 }
