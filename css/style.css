@@ -26,14 +26,6 @@ header{
     
 }
 
-main{
-    
-}
-
-footer{
-   
-}
-
 #navlogo{
     width: 7rem;
 }
@@ -157,12 +149,13 @@ h2{
 }
 
 .article {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 40%;
     text-align: center;
+    margin: 20px;
 }
 
 #billede-en-forside, #billede-to-forside, #billede-tre-forside{
@@ -185,6 +178,6 @@ h2{
     color: black;
 }
 
-button p{
-    margin: 0;
+#billede-icon{
+    width: 40%;
 }
