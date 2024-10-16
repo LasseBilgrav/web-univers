@@ -161,6 +161,8 @@ h2{
 
 #billede-en-forside, #billede-to-forside, #billede-tre-forside{
     width: 30%;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .article img {
